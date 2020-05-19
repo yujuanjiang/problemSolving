@@ -1,0 +1,16 @@
+def solution(x):
+
+    if len(x) == 0:
+         return ''
+    
+    ret = ''
+    for c in x:
+        if c.islower():
+             ret += chr(ord('z') - (ord(c) - ord('a')))
+        else:
+             ret += c
+    
+    print(ret)
+    return ret
+ 
+solution("Yvzs! I xzm'g yvorvev Lzmxv olhg srh qly zg gsv xlolmb!!")
