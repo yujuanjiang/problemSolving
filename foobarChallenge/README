@@ -1,0 +1,12 @@
+ATTENTION:
+
+# Refer a friend: "https://foobar.withgoogle.com/?eid=FZRMR" (Unused)
+
+- Save the solution script before running it
+- NO input/output functions (e.g., print() )
+- The arguments should keep consistent
+
+#To test:
+
+- Edge case
+- If runtime takes too long then need time optimization (especially when edge case can be very large)
